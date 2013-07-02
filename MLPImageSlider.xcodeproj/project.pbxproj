@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B18CED317827A62000A794D /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CECB17827A62000A794D /* facebook.png */; };
+		3B18CED417827A62000A794D /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CECC17827A62000A794D /* github.png */; };
+		3B18CED517827A62000A794D /* grooveshark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CECD17827A62000A794D /* grooveshark.png */; };
+		3B18CED617827A62000A794D /* instagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CECE17827A62000A794D /* instagram.png */; };
+		3B18CED717827A62000A794D /* pinterest.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CECF17827A62000A794D /* pinterest.png */; };
+		3B18CED817827A62000A794D /* tumblr.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CED017827A62000A794D /* tumblr.png */; };
+		3B18CED917827A62000A794D /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CED117827A62000A794D /* twitter.png */; };
+		3B18CEDA17827A62000A794D /* youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CED217827A62000A794D /* youtube.png */; };
+		3B18CEDC17827CDC000A794D /* Blurred.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CEDB17827CDC000A794D /* Blurred.jpg */; };
+		3B18CEDF178312C0000A794D /* blurry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CEDD178312C0000A794D /* blurry.jpg */; };
+		3B18CEE0178312C0000A794D /* simple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B18CEDE178312C0000A794D /* simple.jpg */; };
+		3BEA8507172970B60075B071 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEA8506172970B60075B071 /* UIKit.framework */; };
+		3BEA8509172970B60075B071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEA8508172970B60075B071 /* Foundation.framework */; };
+		3BEA850B172970B60075B071 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BEA850A172970B60075B071 /* CoreGraphics.framework */; };
+		3BEA8511172970B60075B071 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA850F172970B60075B071 /* InfoPlist.strings */; };
+		3BEA8513172970B60075B071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA8512172970B60075B071 /* main.m */; };
+		3BEA8517172970B60075B071 /* MLPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA8516172970B60075B071 /* MLPAppDelegate.m */; };
+		3BEA8519172970B60075B071 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA8518172970B60075B071 /* Default.png */; };
+		3BEA851B172970B60075B071 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA851A172970B60075B071 /* Default@2x.png */; };
+		3BEA851D172970B60075B071 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA851C172970B60075B071 /* Default-568h@2x.png */; };
+		3BEA8520172970B60075B071 /* MLPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA851F172970B60075B071 /* MLPViewController.m */; };
+		3BEA8523172970B60075B071 /* MLPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA8521172970B60075B071 /* MLPViewController.xib */; };
+		3BEA852E172970E20075B071 /* MLPImageViewSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEA852D172970E20075B071 /* MLPImageViewSlider.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B18CECB17827A62000A794D /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		3B18CECC17827A62000A794D /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		3B18CECD17827A62000A794D /* grooveshark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grooveshark.png; sourceTree = "<group>"; };
+		3B18CECE17827A62000A794D /* instagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instagram.png; sourceTree = "<group>"; };
+		3B18CECF17827A62000A794D /* pinterest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinterest.png; sourceTree = "<group>"; };
+		3B18CED017827A62000A794D /* tumblr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tumblr.png; sourceTree = "<group>"; };
+		3B18CED117827A62000A794D /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		3B18CED217827A62000A794D /* youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube.png; sourceTree = "<group>"; };
+		3B18CEDB17827CDC000A794D /* Blurred.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blurred.jpg; sourceTree = "<group>"; };
+		3B18CEDD178312C0000A794D /* blurry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blurry.jpg; sourceTree = "<group>"; };
+		3B18CEDE178312C0000A794D /* simple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simple.jpg; sourceTree = "<group>"; };
+		3BEA8503172970B60075B071 /* MLPImageSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPImageSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEA8506172970B60075B071 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BEA8508172970B60075B071 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BEA850A172970B60075B071 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BEA850E172970B60075B071 /* MLPImageSlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLPImageSlider-Info.plist"; sourceTree = "<group>"; };
+		3BEA8510172970B60075B071 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BEA8512172970B60075B071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BEA8514172970B60075B071 /* MLPImageSlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLPImageSlider-Prefix.pch"; sourceTree = "<group>"; };
+		3BEA8515172970B60075B071 /* MLPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPAppDelegate.h; sourceTree = "<group>"; };
+		3BEA8516172970B60075B071 /* MLPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPAppDelegate.m; sourceTree = "<group>"; };
+		3BEA8518172970B60075B071 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3BEA851A172970B60075B071 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3BEA851C172970B60075B071 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3BEA851E172970B60075B071 /* MLPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLPViewController.h; sourceTree = "<group>"; };
+		3BEA851F172970B60075B071 /* MLPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLPViewController.m; sourceTree = "<group>"; };
+		3BEA8522172970B60075B071 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MLPViewController.xib; sourceTree = "<group>"; };
+		3BEA852C172970E20075B071 /* MLPImageViewSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPImageViewSlider.h; sourceTree = "<group>"; };
+		3BEA852D172970E20075B071 /* MLPImageViewSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPImageViewSlider.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BEA8500172970B60075B071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEA8507172970B60075B071 /* UIKit.framework in Frameworks */,
+				3BEA8509172970B60075B071 /* Foundation.framework in Frameworks */,
+				3BEA850B172970B60075B071 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B18CECA17827A62000A794D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B18CEDD178312C0000A794D /* blurry.jpg */,
+				3B18CEDE178312C0000A794D /* simple.jpg */,
+				3B18CEDB17827CDC000A794D /* Blurred.jpg */,
+				3B18CECB17827A62000A794D /* facebook.png */,
+				3B18CECC17827A62000A794D /* github.png */,
+				3B18CECD17827A62000A794D /* grooveshark.png */,
+				3B18CECE17827A62000A794D /* instagram.png */,
+				3B18CECF17827A62000A794D /* pinterest.png */,
+				3B18CED017827A62000A794D /* tumblr.png */,
+				3B18CED117827A62000A794D /* twitter.png */,
+				3B18CED217827A62000A794D /* youtube.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3BEA84FA172970B60075B071 = {
+			isa = PBXGroup;
+			children = (
+				3BEA850C172970B60075B071 /* MLPImageSlider */,
+				3BEA8505172970B60075B071 /* Frameworks */,
+				3BEA8504172970B60075B071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BEA8504172970B60075B071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA8503172970B60075B071 /* MLPImageSlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BEA8505172970B60075B071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA8506172970B60075B071 /* UIKit.framework */,
+				3BEA8508172970B60075B071 /* Foundation.framework */,
+				3BEA850A172970B60075B071 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BEA850C172970B60075B071 /* MLPImageSlider */ = {
+			isa = PBXGroup;
+			children = (
+				3B18CECA17827A62000A794D /* Images */,
+				3BEA8515172970B60075B071 /* MLPAppDelegate.h */,
+				3BEA8516172970B60075B071 /* MLPAppDelegate.m */,
+				3BEA851E172970B60075B071 /* MLPViewController.h */,
+				3BEA851F172970B60075B071 /* MLPViewController.m */,
+				3BEA8521172970B60075B071 /* MLPViewController.xib */,
+				3BEA850D172970B60075B071 /* Supporting Files */,
+				3BEA852C172970E20075B071 /* MLPImageViewSlider.h */,
+				3BEA852D172970E20075B071 /* MLPImageViewSlider.m */,
+			);
+			path = MLPImageSlider;
+			sourceTree = "<group>";
+		};
+		3BEA850D172970B60075B071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA850E172970B60075B071 /* MLPImageSlider-Info.plist */,
+				3BEA850F172970B60075B071 /* InfoPlist.strings */,
+				3BEA8512172970B60075B071 /* main.m */,
+				3BEA8514172970B60075B071 /* MLPImageSlider-Prefix.pch */,
+				3BEA8518172970B60075B071 /* Default.png */,
+				3BEA851A172970B60075B071 /* Default@2x.png */,
+				3BEA851C172970B60075B071 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BEA8502172970B60075B071 /* MLPImageSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BEA8529172970B60075B071 /* Build configuration list for PBXNativeTarget "MLPImageSlider" */;
+			buildPhases = (
+				3BEA84FF172970B60075B071 /* Sources */,
+				3BEA8500172970B60075B071 /* Frameworks */,
+				3BEA8501172970B60075B071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLPImageSlider;
+			productName = MLPImageSlider;
+			productReference = 3BEA8503172970B60075B071 /* MLPImageSlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BEA84FB172970B60075B071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MLP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mainloop LLC";
+			};
+			buildConfigurationList = 3BEA84FE172970B60075B071 /* Build configuration list for PBXProject "MLPImageSlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BEA84FA172970B60075B071;
+			productRefGroup = 3BEA8504172970B60075B071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BEA8502172970B60075B071 /* MLPImageSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BEA8501172970B60075B071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEA8511172970B60075B071 /* InfoPlist.strings in Resources */,
+				3BEA8519172970B60075B071 /* Default.png in Resources */,
+				3BEA851B172970B60075B071 /* Default@2x.png in Resources */,
+				3BEA851D172970B60075B071 /* Default-568h@2x.png in Resources */,
+				3BEA8523172970B60075B071 /* MLPViewController.xib in Resources */,
+				3B18CED317827A62000A794D /* facebook.png in Resources */,
+				3B18CED417827A62000A794D /* github.png in Resources */,
+				3B18CED517827A62000A794D /* grooveshark.png in Resources */,
+				3B18CED617827A62000A794D /* instagram.png in Resources */,
+				3B18CED717827A62000A794D /* pinterest.png in Resources */,
+				3B18CED817827A62000A794D /* tumblr.png in Resources */,
+				3B18CED917827A62000A794D /* twitter.png in Resources */,
+				3B18CEDA17827A62000A794D /* youtube.png in Resources */,
+				3B18CEDC17827CDC000A794D /* Blurred.jpg in Resources */,
+				3B18CEDF178312C0000A794D /* blurry.jpg in Resources */,
+				3B18CEE0178312C0000A794D /* simple.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BEA84FF172970B60075B071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEA8513172970B60075B071 /* main.m in Sources */,
+				3BEA8517172970B60075B071 /* MLPAppDelegate.m in Sources */,
+				3BEA8520172970B60075B071 /* MLPViewController.m in Sources */,
+				3BEA852E172970E20075B071 /* MLPImageViewSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BEA850F172970B60075B071 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEA8510172970B60075B071 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BEA8521172970B60075B071 /* MLPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BEA8522172970B60075B071 /* en */,
+			);
+			name = MLPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BEA8527172970B60075B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BEA8528172970B60075B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BEA852A172970B60075B071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLPImageSlider/MLPImageSlider-Prefix.pch";
+				INFOPLIST_FILE = "MLPImageSlider/MLPImageSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BEA852B172970B60075B071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLPImageSlider/MLPImageSlider-Prefix.pch";
+				INFOPLIST_FILE = "MLPImageSlider/MLPImageSlider-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BEA84FE172970B60075B071 /* Build configuration list for PBXProject "MLPImageSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEA8527172970B60075B071 /* Debug */,
+				3BEA8528172970B60075B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BEA8529172970B60075B071 /* Build configuration list for PBXNativeTarget "MLPImageSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BEA852A172970B60075B071 /* Debug */,
+				3BEA852B172970B60075B071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BEA84FB172970B60075B071 /* Project object */;
+}
